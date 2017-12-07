@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Outputs
-# permalink: /projects/
-# navigation_weight: -5
+permalink: /outputs/
 ---
 
 

@@ -1,8 +1,7 @@
 ---
 layout: contact
 title: Contact
-# permalink: /contact/
-# navigation_weight: -5
+permalink: /contact/
 ---
 
 If you are a human or friendly sentient AI: my email is *thomas.julou*, followed immediately by *@normalesup.org*

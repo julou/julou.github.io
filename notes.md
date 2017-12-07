@@ -2,8 +2,7 @@
 layout: page
 title: Notes
 published: false
-# permalink: /notes/
-# navigation_weight: 5
+permalink: /notes/
 ---
 
 <ul>

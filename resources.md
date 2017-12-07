@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Resources
-# permalink: /resources/
-# navigation_weight: 0
+permalink: /resources/
 ---
 
 <!-- *toward an open lab / reproducible practices in research:*  -->

@@ -95,7 +95,7 @@ a:hover { color: #28669F; }
 // Footer
 footer {
   background: #262F36;
-  color: #ddd;
+  color: #aaa;
   padding: 1.5rem 0;
   
   p, ul, li {margin: 0;}
@@ -104,7 +104,7 @@ footer {
     margin-right: 1rem;
   }
   
-  a {color: #fff; }
+  a {color: #ddd; }
   a:hover {color: #ddd; }
   
   a.cc-logo {
@@ -113,6 +113,7 @@ footer {
     svg {
       float: left;
       padding-right: 4px;
+      margin-top: 3px;
     }
   }
 }

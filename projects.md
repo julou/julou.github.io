@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-# navigation_weight: -7
+permalink: /projects/
 ---
 
 
