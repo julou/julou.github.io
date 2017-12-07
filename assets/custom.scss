@@ -96,7 +96,13 @@ a:hover { color: #28669F; }
 footer {
   background: #262F36;
   color: #ddd;
-  padding-top: 2.5rem;
+  padding: 1.5rem 0;
+  
+  p, ul, li {margin: 0;}
+  li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
   
   a {color: #fff; }
   a:hover {color: #ddd; }
@@ -111,13 +117,13 @@ footer {
   }
 }
 .post {
-  min-height: calc(100vh - 64px - 108px - 2.5rem - 3.5rem);
+  min-height: calc(100vh - 64px - 54px - 2.5rem - 3.5rem);
   margin-bottom: 3.5rem;
 }
 
 // Homepage
 .home {
-  min-height: calc(100vh - 64px - 108px - 2.5rem);
+  min-height: calc(100vh - 64px - 54px - 2.5rem);
 //  min-height: calc(100vh - 64px - 0rem);
   display: table;
   
