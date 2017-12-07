@@ -18,7 +18,7 @@ author: Thomas Julou
 email: thomas.julou@normalesup.org
 description: >- # this means to ignore newlines until "baseurl:"
   I'm a biologist by training, did a PhD in biophysics lab, and currently work on basic research projects. 
-I like to combine different viewpoints in order to phrase new questions. I have a strong commitment to using quantitative approches, and use it to address biological problems involving phenotypic variability. In my daily work, I promote the use of open-source tools and reproducible research practices.
+  I like to combine different viewpoints in order to phrase new questions. I have a strong commitment to using quantitative approches, and use it to address biological problems involving phenotypic variability. In my daily work, I promote the use of open-source tools and reproducible research practices.
 # Quantitative biology of microbes: from gene expression stochasticity to ecology and evolution of bacteria.
 
 baseurl: "" # the subpath of your site, e.g. /blog
