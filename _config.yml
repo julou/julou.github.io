@@ -50,7 +50,7 @@ header_pages:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-skeleton
+#theme: jekyll-skeleton
 permalink: /notes/:categories/:title.html
 plugins:
   - jekyll-feed
