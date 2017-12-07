@@ -84,8 +84,14 @@ a:hover { color: #28669F; }
 }
 
 // Main content
-.page-content {
+/*.page-content {
   margin-top: 2.5rem;
+}
+*/
+
+article {
+  min-height: calc(100vh - 64px - 54px - 4rem - 3.5rem);
+  margin: 4rem 0 3.5rem 0;
 }
 
 .csl-bib-body {
@@ -96,9 +102,11 @@ a:hover { color: #28669F; }
 footer {
   background: #262F36;
   color: #aaa;
-  padding: 1.5rem 0;
+  padding-bottom: 1.5rem;
   
-  p, ul, li {margin: 0;}
+  .column {padding-top: 1.5rem; }
+
+  p, ul, li {margin: 0; }
   li {
     display: inline-block;
     margin-right: 1rem;
@@ -117,15 +125,11 @@ footer {
     }
   }
 }
-.post {
-  min-height: calc(100vh - 64px - 54px - 2.5rem - 3.5rem);
-  margin-bottom: 3.5rem;
-}
 
 // Homepage
 .home {
-  min-height: calc(100vh - 64px - 54px - 2.5rem);
-//  min-height: calc(100vh - 64px - 0rem);
+  min-height: calc(100vh - 64px - 54px - 4rem);
+  margin-bottom: 0rem;
   display: table;
   
   .row {
