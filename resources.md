@@ -20,7 +20,7 @@ Here are some tips for students, based on my iterations toward more reproducible
 ## handling data
 
 - For data analysis and plotting, I enjoy very much (most of the time!) working with `R`'s [`tidyverse`](https://www.tidyverse.org), in particular `dplyr` and `ggplot2`. If you are new to R or to data analysis from the command line, the companion book *R for Data Science* (available [online](http://r4ds.had.co.nz)) is the best introduction you can dream of. My advice: study sections 2 to 8 thoroughly, the next ones will be useful to go deeper on specific topics based on your needs.  
-Hint: if you need to speed up your analysis with `dplyr` have a look at its parallelized counterpart [`multidplyr`]().
+Hint: if you need to speed up your analysis with `dplyr` have a look at its parallelized counterpart [`multidplyr`](https://github.com/hadley/multidplyr).
 
 - Follow simple guidelines when [recording data in spreadsheets](http://blog.revolutionanalytics.com/2017/11/good-practices-spreadsheets.html)
 
@@ -42,9 +42,11 @@ Big drawback: your data must be hosted on their servers...
 
 ## handling microscopy data
 
-- [Micro-Manager](https://micro-manager.org) is an open-source software for microscope control. If your hardware falls in the list of (over 200) supported items, it is very easy to configure and can be extended to support advanced features such as hardware triggering (on which we wrote a step-by-step tutorial). 
+- [Micro-Manager](https://micro-manager.org) is an open-source software for microscope control. If your hardware falls in the list of (over 200) supported items, it is very easy to configure and can be extended to support advanced features such as hardware triggering (on which we wrote a [step-by-step tutorial](https://github.com/vanNimwegenLab/MiM_NikonTi/blob/master/Docs/NikonTi_hardware_triggering.md)). 
 
 - A smooth [introduction lecture to fluorescence microscopy](https://www.ibiology.org/ibioeducation/taking-courses/ibiology-microscopy-short-course/introduction-to-fluorescence-microscopy-2.html).
+
+<!-- - IJ Fiji resources -->
 
 <!-- - *archiving/browsing microscopy images (fiji, omero, bioformats) -->
 
@@ -53,7 +55,7 @@ Big drawback: your data must be hosted on their servers...
 
 - Uri Alon's [materials for nurturing scientists](http://www.weizmann.ac.il/mcb/UriAlon/materials-nurturing-scientists)
 - [*Some Modest Advice for Graduate Students*](http://onlinelibrary.wiley.com/doi/10.2307/20166580/full) by S. Stearns and R. Huey's [*Reply to Stearns: Some Acynical Advice for Graduate Students*](http://onlinelibrary.wiley.com/store/10.2307/20166581/asset/bes21987682150.pdf?v=1&t=jauajito&s=d0bcc7d5cc17ded6f0410b8e9fc808b64d4a7e51).
-- Writings such as B. Latour's [*Petites leçons de sociologie des sciences*]() and I. Stengers' [*Sciences et pouvoirs*]() ([*Power and invention*](https://www.upress.umn.edu/book-division/books/power-and-invention)) have helped me to overcome various academic frustrations and hopefully to fight their causes. [*Making genes, making waves*]() by J. Beckwidth is another inspiring read.
+- Writings such as B. Latour's [*Petites leçons de sociologie des sciences*](http://www.editionsladecouverte.fr/catalogue/index-Petites_le__ons_de_sociologie_des_sciences-9782707150127.html) and I. Stengers' [*Sciences et pouvoirs*](http://www.editionsladecouverte.fr/catalogue/index-Sciences_et_pouvoirs-9782707138576.html) ([*Power and invention*](https://www.upress.umn.edu/book-division/books/power-and-invention)) have helped me to overcome various academic frustrations and hopefully to fight their causes. [*Making genes, making waves*](http://www.hup.harvard.edu/catalog.php?isbn=9780674009288) by J. Beckwidth is another inspiring read.
 - L'Atelier des Jours à Venir, a French non-profit company promoting reflexive and responsible research practices, gathered valuable [resources](resources).
 <!-- - contribution NKI -->
 - On research integrity: I was a founder of the [Scientific Red Cards](https://scientificredcards.wordpress.com) intiative (discontinued). Related issues are currently addressed by [Retraction Watch](https://retractionwatch.com) and [PubPeer](https://pubpeer.com).

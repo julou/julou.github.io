@@ -13,7 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: tj
+title: Thomas Julou's homepage
+initials: tj
 author: Thomas Julou
 email: thomas.julou@normalesup.org
 description: >- # this means to ignore newlines until "baseurl:"
@@ -23,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "julou.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: UA-110860289-1
 twitter_username: ThomasJulou
 github_username:  julou
 linkedin_username: thomasjulou
@@ -53,6 +55,7 @@ markdown: kramdown
 #theme: jekyll-skeleton
 permalink: /notes/:categories/:title.html
 plugins:
+  - jekyll-seo-tag
   - jekyll-feed
 
 # Exclude from processing.

@@ -43,4 +43,4 @@ _This list might be neither exhaustive nor up-to-date: you can also find me on [
 
 ## Data
 
-- [Images and raw data](https://zenodo.org/record/824793) for the [DIMM article]().
+- [Images and raw data](https://zenodo.org/record/824793) for [<span class="co-first">Kaiser M</span>, <span class="co-first">Jug F</span>, Silander O, Deshpande S, Pfohl T, Julou T, Myers G &amp; van Nimwegen E (2016) Tracking single-cell gene regulation in dynamically controlled environments using an integrated microfluidic and computational setup. <i>bioRxiv</i> 076224.](https://www.biorxiv.org/content/early/2016/09/20/076224).
