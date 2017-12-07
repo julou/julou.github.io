@@ -3,19 +3,17 @@
 <header class="site-header" role="banner">
   <div class="container row">
     <div class="two columns">
-      <a class="site-title" href="{{ "/" | relative_url }}"><strong>{{ site.initials | escape }}</strong></a>
+      <a class="site-title" href="{{ "/" | relative_url }}">{% include icon_tj.svg %}</a>
     </div>
     <div class="ten columns">
       {% if page_paths %}
         <nav class="site-nav">
-          <div class="trigger">
-            {% for path in page_paths %}
-              {% assign my_page = site.pages | where: "path", path | first %}
-              {% if my_page.title %}
-              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-              {% endif %}
-            {% endfor %}
-          </div>
+          {% for path in page_paths %}
+            {% assign my_page = site.pages | where: "path", path | first %}
+            {% if my_page.title %}
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            {% endif %}
+          {% endfor %}
         </nav>
       {% endif %}
     </div>
