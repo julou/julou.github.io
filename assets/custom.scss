@@ -1,13 +1,27 @@
 ---
 ---
 
+$title-fonts: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$text-fonts: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$primary-color: #28669F;
+$secondary-color: #262F36;
+$light-gray: #ddd;
+$mid-gray: #aaa;
+
+$navbar-height: 64px;
+$footer-height: 54px;
+$main-top-margin: 4rem;
+$main-bottom-margin: 3.5rem;
+$main-min-height: calc(100vh - #{$navbar-height} - #{$footer-height} - #{$main-top-margin} - #{$main-bottom-margin});
+
+
 // Fonts
 body {
-  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $text-fonts;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $title-fonts;
 }
 h2, h3, h4, h5, h6 {
   font-weight: 500;
@@ -24,15 +38,15 @@ h6 { font-size: 1.0rem; line-height: 2.0;  letter-spacing: 0; }
 
 
 // Links
-a { color: #28669F; }
-a:hover { color: #28669F; }
+a { color: $primary-color; }
+a:hover { color: $primary-color; }
 
 
 // Navigation
 .site-header {
-  background: #28669F;
+  background: $primary-color;
   padding: 10px 0;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $title-fonts;
   text-align: center;
 
   a { text-decoration: none; }
@@ -40,6 +54,10 @@ a:hover { color: #28669F; }
   .one {
     font-size: 1em;
     line-height: 1;
+  }
+  .site-title {
+    display: block;
+    margin: 2px 0 -1px 0; 
   }
   
   nav {
@@ -81,8 +99,8 @@ a:hover { color: #28669F; }
 */
 
 article {
-  min-height: calc(100vh - 64px - 54px - 4rem - 3.5rem);
-  margin: 4rem 0 3.5rem 0;
+  min-height: $main-min-height;
+  margin: $main-top-margin 0 $main-bottom-margin 0;
 }
 
 .csl-bib-body {
@@ -91,8 +109,8 @@ article {
 
 // Footer
 footer {
-  background: #262F36;
-  color: #aaa;
+  background: $secondary-color;
+  color: $mid-gray;
   padding-bottom: 1.5rem;
   
   .column {padding-top: 1.5rem; }
@@ -103,8 +121,8 @@ footer {
     margin-right: 1rem;
   }
   
-  a {color: #ddd; }
-  a:hover {color: #ddd; }
+  a {color: $light-gray; }
+  a:hover {color: $light-gray; }
   
   a.cc-logo {
     text-decoration: none;
@@ -119,8 +137,7 @@ footer {
 
 // Homepage
 .home {
-  min-height: calc(100vh - 64px - 54px - 4rem);
-  margin-bottom: 0rem;
+  min-height: $main-min-height;
   display: table;
   
   .row {
