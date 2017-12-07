@@ -1,0 +1,154 @@
+---
+---
+
+// Fonts
+body {
+  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;   font-weight: 300; }
+
+h2 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: .05rem; }
+h3 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: .02rem; }
+h4 { font-size: 1.2rem; line-height: 1.8;  letter-spacing: 0; }
+h5 { font-size: 1.2rem; line-height: 1.8;  letter-spacing: 0; }
+h6 { font-size: 1.0rem; line-height: 2.0;  letter-spacing: 0; }
+
+
+// Links
+a { color: #28669F; }
+a:hover { color: #28669F; }
+
+
+// Navigation
+.site-header{
+  background: #28669F;
+  padding: 10px 0;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 1.8rem;
+
+  .site-title {
+    display: inline-block;
+    background: #eee;
+    padding: 3px 10px;
+    border-radius: 4px;
+    color: #28669F;
+    letter-spacing: .15rem;
+  }
+
+  a {
+    text-decoration: none;  
+    margin-left: .5em;
+  }
+  
+  nav {
+    padding-top: 10px;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    font-weight: 500;
+    letter-spacing: .05rem;    
+    
+    a { color:#fff; }
+    a:hover { color:#fff; }
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 550px) {
+  .site-header {
+    text-align: left;
+
+    nav {
+      float: right;
+      padding-top: 0;
+    }
+  }
+}
+@media (min-width: 750px) {
+  .site-header {
+    font-size: 2.4rem;
+    
+    .site-title {
+      padding: 3px 13px;
+    }
+  }
+}
+
+// Main content
+.page-content {
+  margin-top: 2.5rem;
+}
+
+.csl-bib-body {
+  margin-bottom: 2.5rem;
+}
+
+// Footer
+footer {
+  background: #262F36;
+  color: #ddd;
+  padding-top: 2.5rem;
+  
+  a {color: #fff; }
+  a:hover {color: #ddd; }
+  
+  a.cc-logo {
+    text-decoration: none;
+    
+    svg {
+      float: left;
+      padding-right: 4px;
+    }
+  }
+}
+.post {
+  min-height: calc(100vh - 64px - 108px - 2.5rem - 3.5rem);
+  margin-bottom: 3.5rem;
+}
+
+// Homepage
+.home {
+  min-height: calc(100vh - 64px - 108px - 2.5rem);
+//  min-height: calc(100vh - 64px - 0rem);
+  display: table;
+  
+  .row {
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 3.5rem;
+  }
+
+  h2 { 
+  text-transform: uppercase;
+  font-variant: normal;
+  font-size: 1.8rem; 
+  line-height: 1.5; 
+  letter-spacing: .05rem; 
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+  }
+}
+
+// Misc
+.project h2 {
+  margin-bottom: 0.5rem;
+}
+
+.co-first::after {
+  content: "\262F";
+  vertical-align: super;
+  font-size: 1.2rem;
+}

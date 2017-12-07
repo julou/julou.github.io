@@ -22,15 +22,17 @@ title: Outputs
 
 ## Articles
 
-_This list might not be up-to-date: you can also find me on [google scholar](https://scholar.google.com/citations?user=prpTE68AAAAJ)._
+_This list might be neither exhaustive nor up-to-date: you can also find me on [google scholar](https://scholar.google.com/citations?user=prpTE68AAAAJ)._
 
 {% include bibArticles.html %}
 
+<hr>
 
 ## Talks & Posters
 
 {% include bibPresentations.html %}
 
+<hr>
 
 ## Tools
 

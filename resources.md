@@ -5,9 +5,9 @@ title: Resources
 # navigation_weight: 0
 ---
 
-*toward an open lab / reproducible practices in research:*  
+<!-- *toward an open lab / reproducible practices in research:*  -->
 
-Whether research should be *absolutely* reproducible is a complicated question, nonetheless I do believe than one should be able to reproduce ones own analysis without pain (even in the future) and to share them along with the publications. This may sound all obvious, but not be so easy to achieve in practice!
+Whether research should be *absolutely* reproducible is not a simple issue, nonetheless I do believe than one should be able to reproduce ones own analysis without pain (even in the future) and to share them along with the publications. This may sound all obvious, but not be so easy to achieve in practice!
 
 Here are some tips for students, based on my iterations toward more reproducible practices:
 
@@ -57,10 +57,6 @@ Big drawback: your data must be hosted on their servers...
 - Writings such as B. Latour's [*Petites leçons de sociologie des sciences*]() and I. Stengers' [*Sciences et pouvoirs*]() ([*Power and invention*](https://www.upress.umn.edu/book-division/books/power-and-invention)) have helped me to overcome various academic frustrations and hopefully to fight their causes. [*Making genes, making waves*]() by J. Beckwidth is another inspiring read.
 - L'Atelier des Jours à Venir, a French non-profit company promoting reflexive and responsible research practices, gathered valuable [resources](resources).
 <!-- - contribution NKI -->
-- On research integrity:
-  + [Scientific Red Cards](https://scientificredcards.wordpress.com) 
-  + [Workshops](http://www.joursavenir.org/activities/university-courses) by l'Atelier des Jours à Venir.
-  + [Retraction Watch](https://retractionwatch.com) 
-  + [PubPeer](https://pubpeer.com)
+- On research integrity: I was a founder of the [Scientific Red Cards](https://scientificredcards.wordpress.com) intiative (discontinued). Related issues are currently addressed by [Retraction Watch](https://retractionwatch.com) and [PubPeer](https://pubpeer.com).
   <!-- + blog post -->
   
