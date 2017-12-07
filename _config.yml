@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Quantitaive biology of microbes: from gene expression stochasticity to ecology and evolution of bacteria.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "julou.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ThomasJulou
 github_username:  julou
 linkedin_username: thomasjulou
@@ -48,8 +48,7 @@ header_pages:
 
 # Build settings
 markdown: kramdown
-# theme: minima
-theme: jekyll-skeleton
+# theme: jekyll-skeleton
 permalink: /notes/:categories/:title.html
 plugins:
   - jekyll-feed
