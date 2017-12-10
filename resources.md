@@ -4,17 +4,19 @@ title: Resources
 permalink: /resources/
 ---
 
-<!-- *toward an open lab / reproducible practices in research:*  -->
+{% comment %}
+*toward an open lab / reproducible practices in research:*
+{% endcomment %}
 
-Whether research should be *absolutely* reproducible is not a simple issue, nonetheless I do believe than one should be able to reproduce ones own analysis without pain (even in the future) and to share them along with the publications. This may sound all obvious, but not be so easy to achieve in practice!
+What makes a research project reproducible reproducible is not a simple question... Nonetheless I do believe than one should be able to reproduce ones' own analysis without pain, even in the future. This may sound all obvious, but not be so easy to achieve in practice!
 
 Here are some tips for students, based on my iterations toward more reproducible practices:
 
-- Start from the beginning: although it may sometimes feel like a waste of time, putting yourself in the situation to redo your analysis easily will make your researcher's life easier (and to the very least help you to rerun chuncks from earlier work).
+- Start from the beginning: although it may sometimes feel like a waste of time, putting yourself in the situation of redoing your analysis easily will make your researcher's life easier (and to the very least help you to rerun chunks from earlier work).
 
 - For each usual task (data analysis, plotting, citing references), you should master one tool down to its dirty details.
 
-- Relying on text-based formats (e.g. Markdown, LaTeX, CSV) is critical in order to be able to use version control to maintain your code, to write manuscripts, etc. This may indeed guide your choice of tools. A good starting points ot learn version control with `git` is the [Software Carpentry tutorial](https://swcarpentry.github.io/git-novice/). [GitHub's documentation](https://help.github.com) provides help on more advanced topics.
+- Relying on text-based formats (e.g. Markdown, LaTeX, CSV) is critical in order to be able to use version control to maintain your code, to write manuscripts, etc. This may indeed guide your choice of tools. A good starting points ot learn version control with `git` is the Software Carpentry [tutorial](https://swcarpentry.github.io/git-novice/). GitHub's [documentation](https://help.github.com) provides help on more advanced topics.
 
 
 ## handling data
@@ -55,9 +57,9 @@ Big drawback: your data must be hosted on their servers...
 
 - Uri Alon's [materials for nurturing scientists](http://www.weizmann.ac.il/mcb/UriAlon/materials-nurturing-scientists) is probably the best existing "academia survival kit" that I know of (and it even has [additional information](http://www.weizmann.ac.il/mcb/UriAlon/additional-information)). Below is my attempt to enrich it with a few links.
 - [*Some Modest Advice for Graduate Students*](http://onlinelibrary.wiley.com/doi/10.2307/20166580/full) by S. Stearns and R. Huey's [*Reply to Stearns: Some Acynical Advice for Graduate Students*](http://onlinelibrary.wiley.com/store/10.2307/20166581/asset/bes21987682150.pdf?v=1&t=jauajito&s=d0bcc7d5cc17ded6f0410b8e9fc808b64d4a7e51).
-- Writings such as B. Latour's [*Petites leçons de sociologie des sciences*](http://www.editionsladecouverte.fr/catalogue/index-Petites_le__ons_de_sociologie_des_sciences-9782707150127.html) and I. Stengers' [*Sciences et pouvoirs*](http://www.editionsladecouverte.fr/catalogue/index-Sciences_et_pouvoirs-9782707138576.html) ([*Power and invention*](https://www.upress.umn.edu/book-division/books/power-and-invention)) have helped me to overcome various academic frustrations and hopefully to fight their causes. [*Making genes, making waves*](http://www.hup.harvard.edu/catalog.php?isbn=9780674009288) by J. Beckwidth is another inspiring read.
+- Writings such as B. Latour's [*Petites leçons de sociologie des sciences*](http://www.editionsladecouverte.fr/catalogue/index-Petites_le__ons_de_sociologie_des_sciences-9782707150127.html) and I. Stengers' [*Sciences et pouvoirs*](http://www.editionsladecouverte.fr/catalogue/index-Sciences_et_pouvoirs-9782707138576.html) ([*Power and invention*](https://www.upress.umn.edu/book-division/books/power-and-invention)) have helped me to overcome various academic frustrations and hopefully to fight some of their causes. [*Making genes, making waves*](http://www.hup.harvard.edu/catalog.php?isbn=9780674009288) by J. Beckwidth is another inspiring read.
 - L'Atelier des Jours à Venir, a French non-profit company promoting reflexive and responsible research practices, gathered valuable [resources](http://www.joursavenir.org/Resources).
 <!-- - contribution NKI -->
-- On research integrity: I was a founder of the [Scientific Red Cards](https://scientificredcards.wordpress.com) intiative (discontinued). Related issues are currently addressed by [Retraction Watch](https://retractionwatch.com) and [PubPeer](https://pubpeer.com).
+- On research integrity: I was a founder of the [Scientific Red Cards](https://scientificredcards.wordpress.com) initiative (discontinued). Related issues are currently addressed by [Retraction Watch](https://retractionwatch.com) and [PubPeer](https://pubpeer.com).
   <!-- + blog post -->
   

@@ -11,7 +11,6 @@ permalink: /projects/
     <h2>{{ project.title }}</h2>
       <p><i>with {{ project.collaborators }}.</i></p>
       <p>{{ project.content }}</p>
-<!--  <p><a href="{{ project.url }}">{{ project.title }}</a></p> -->
   </section>
 
 {% unless forloop.last %}
