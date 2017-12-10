@@ -1,0 +1,73 @@
+# most recent first 
+# thumbnails must be 348 x 235
+
+- img: dimm_lambda_infection.jpg
+  url: https://youtu.be/03CFjryYFNI
+  title: Infection of E. coli by <span class="raw-case">λ</span> phage
+  caption: >
+    *E. coli* MG1655 is grown in a [DIMM](https://metafluidics.org/devices/dual-input-mother-machine/) chip and infected with 
+    fluorescent λ phage (LZ641) after 3 hours. The phase contrast and GFP channels have been overlaid. Frames are acquired every 4 minutes. <br/>
+    Experiment: T. Julou, J. Summers (U. Massey), M. Gralka (U.C. Berkeley) during [KITP Summer School of Quantitative 
+    Biology 2017](https://www.kitp.ucsb.edu/qbio/2017-course-description) (strains kindly provided by [L. Zheng](https://zenglab4.tamu.edu)).
+
+- img: dimm_loading.jpg
+  url: https://youtu.be/zULTr5VA1Pk
+  title: Loading of the DIMM microfluidic chip
+  caption: >
+    *E. coli* cells are loaded in the [DIMM](https://metafluidics.org/devices/dual-input-mother-machine/) chip in several steps: 
+    (1) the cell inlet is plugged and its pressure balance the media inlets' pressure, 
+    (2) increasing the pressure cell inlet brings more cells to the part of the chip with growth channels, 
+    (3) when the flow is stopped (by balancing the pressure again), the cells can swim in the channels. 
+    The movie is shown in real time. <br/>
+    NB: loading of narrower growth channels can take up to 30 minutes.
+
+- img: dimm_gluLac.jpg
+  url: https://youtu.be/2Tznm868fmc
+  title: <i><span class="raw-case">lac</span></i> promoter induction in single cells
+  caption: >
+    *E. coli* MG1655 expressing a lacZ-GFP fusion is grown in a Mother Machine microfluidic chip with environment control. 
+    Glucose and lactose are used alternatively as carbon sources (switching every 4h). The phase contrast and GFP channels 
+    have been overlaid. Frames are acquired every 3 minutes; scale bar is 5µm.
+
+- img: daw_realtime.jpg
+  url: https://youtu.be/lSYMgnkwxAY
+  title: Real-time movie of environment control using the DIMM microfluidic chip
+  caption: >
+    This is a close up on the DAW junction of the [DIMM](https://metafluidics.org/devices/dual-input-mother-machine/) chip 
+    recorded as fluorescent and non-fluorescent media are flown into the chip with abrupt transitions. The very fast transition 
+    (under 1 second) is made possible by using a pressure controller with fast modulation.
+
+- img: yeast_childrenGames.jpg
+  title: <i>Saccharomyces cerevisiae</i> newborn cells
+  caption: >
+    This is primarily an eye candie. Cells are stained with Calcofluor White; the picture shows the maximum intensity projection 
+    of a stack acquired in epifluorescence. The absence of bud scars indicate that cells were produced as "buds" at the last division.
+  
+- img: yeast_eyes.jpg
+  title: <i>Saccharomyces cerevisiae</i> newborn cells
+  caption: > 
+    This is primarily an eye candie. Cells are stained with Calcofluor White; the picture shows the maximum intensity projection 
+    of a stack acquired in epifluorescence. This cell displays two bud scars, indicating that it has divided twice since it was a bud itself.
+  
+- img: pseudo_pvd.jpg
+  url: https://youtu.be/BJl6eQCWmSA
+  title: Dynamics and variability of pyoverdin concentration in <i>Pseudomonas aeruginosa</i> (PAO1) microcolonies
+  caption: >
+    Time-lapse fluorescence images of a growing microcolony, with correlation images (left) and pyoverdin intrinsic fluorescence (right).
+    For the fluorescence channel, each frame is normalized by the mean intensity of the image and the inset shows the increase 
+    of the mean fluorescence during the experiment. Frames are acquired every 5 minutes; scale bar is 5µm. <br/>
+    <span class="co-first">Julou T</span>, <span class="co-first">Mora T</span>, *et al.* (2013) [Cell-cell contacts confine public goods 
+    diffusion inside Pseudomonas aeruginosa clonal microcolonies](http://dx.doi.org/10.1073/pnas.1301428110). *Proc. Natl. Acad. Sci. U.S.A.* **110**, 12577–12582.
+
+
+- img: cell_counting.jpg
+  url: https://youtu.be/DOSNjVKUqT0
+  title: A new microbial concentration measurement method based on light scattering by individual cells
+  caption: > 
+    Dual-view movie obtained with heat-killed E. coli at 7e-6 mL−1 without (left) or with (right) propidium iodide (enhanced online). The upper beam 
+    correspond to scattered light wavelength (below 550 nm) while the lower beam correspond to fluorescence wavelength (above 550nm). 
+    Acquisition frequency is 3.77Hz and exposure time is 20ms. Contrast has been adjusted to improve particle visibility. Scale bar is 200 μm. <br/>
+    Julou T, Desprat N, Bensimon D & Croquette V (2012) [Monitoring microbial population dynamics at low densities.](http://dx.doi.org/10.1063/1.4729796) *Rev Sci Instrum* **83**, 74301.
+
+
+

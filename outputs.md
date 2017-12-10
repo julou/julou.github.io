@@ -2,22 +2,17 @@
 layout: page
 title: Outputs
 permalink: /outputs/
+lightgallery: true
 ---
 
-
-<!--
 ## Gallery
 
-- lambda
-- ceftriaxone
-- DIMM
-- MoM loading
-- yeast scars
-- pseudo aeruginosa
-- cell counter beam
-- temp gradient
--->
+{% include gallery.html %}
 
+{% comment %}
+- ceftriaxone
+- temp gradient
+{% endcomment %}
 
 ## Articles
 

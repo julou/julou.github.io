@@ -64,9 +64,10 @@ a:hover { color: $primary-color; }
     padding-top: 10px;
     text-transform: lowercase;
     font-variant: small-caps;
-    font-size: 1.8rem;
-    font-weight: 500;
-    letter-spacing: .05rem;    
+    font-size: 1.6rem;
+    line-height: 1;
+    font-weight: 200;
+    letter-spacing: .2rem;
     
     a { color:#fff; 
         margin-left: .5em;
@@ -83,12 +84,17 @@ a:hover { color: $primary-color; }
     nav {
       float: right;
       padding-top: 0;
+
+      font-size: 2.0rem;
+      letter-spacing: .25rem;
     }
   }
 }
 @media (min-width: 750px) {
   .site-header {
-    nav { font-size: 2.4rem; }
+    nav { font-size: 2.2rem;
+        letter-spacing: .3rem;
+}
   }
 }
 
@@ -106,6 +112,7 @@ article {
 .csl-bib-body {
   margin-bottom: 2.5rem;
 }
+
 
 // Footer
 footer {
@@ -135,6 +142,7 @@ footer {
   }
 }
 
+
 // Homepage
 .home {
   min-height: $main-min-height;
@@ -161,6 +169,62 @@ footer {
   }
 }
 
+
+// Gallery 
+$gallery-gutter: 2px;
+#lightgallery {
+  font-size: 1em;
+  line-height: .5;
+  margin-bottom: 5rem;
+  
+// 2 images per row
+  .column { 
+    width: calc(50% - 1 / 2 * #{$gallery-gutter});
+    margin: 0 0 $gallery-gutter $gallery-gutter;
+  }
+  .column:first-child { margin-left: 0; }
+  .column:nth-child(2n+1) { margin-left: 0; }
+}
+
+@media (min-width: 750px) {
+// 3 images per row
+  #lightgallery {
+    .column { 
+      width: calc(100% / 3 - 2 / 3 * #{$gallery-gutter});
+      margin: 0 0 $gallery-gutter $gallery-gutter;
+    }
+    .column:nth-child(2n+1) { margin-left: $gallery-gutter; }
+    .column:nth-child(3n+1) { margin-left: 0; }
+  }
+}
+
+@media (min-width: 1000px) {
+// 4 images per row
+  #lightgallery {
+    .column { 
+      width: calc(25% - 3 / 4 * #{$gallery-gutter});
+      margin: 0 0 $gallery-gutter $gallery-gutter;
+    }
+    .column:nth-child(2n+1) { margin-left: $gallery-gutter; }
+    .column:nth-child(3n+1) { margin-left: $gallery-gutter; }
+    .column:nth-child(4n+1) { margin-left: 0; }
+  }
+}
+
+.lg-sub-html {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: left;
+  
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }
+  
+  p { color: $light-gray; }
+  a { color: #fff; }
+}
+
+
 // Misc
 .project h2 {
   margin-bottom: 0.5rem;
@@ -170,4 +234,7 @@ footer {
   content: "\262F";
   vertical-align: super;
   font-size: 1.2rem;
+}
+.raw-case {
+  text-transform: none;
 }

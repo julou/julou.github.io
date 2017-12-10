@@ -34,8 +34,9 @@ collections:
 defaults:
   -
     scope:
-      path: "_projects"
+      path: ""
     values:
+      lightgallery: false
       published: true
 
 # If you want to link only specific pages in your header, uncomment
