@@ -31,7 +31,7 @@
 
 - img: daw_realtime.jpg
   url: https://youtu.be/lSYMgnkwxAY
-  title: Real-time movie of environment control using the DIMM microfluidic chip
+  title: Flow control in the DIMM microfluidic chip
   caption: >
     This is a close up on the DAW junction of the [DIMM](https://metafluidics.org/devices/dual-input-mother-machine/) chip 
     recorded as fluorescent and non-fluorescent media are flown into the chip with abrupt transitions. The very fast transition 
@@ -62,7 +62,7 @@
 
 - img: cell_counting.jpg
   url: https://youtu.be/DOSNjVKUqT0
-  title: A new microbial concentration measurement method based on light scattering by individual cells
+  title: Microbial concentration measurement method based on light scattering by individual cells
   caption: > 
     Dual-view movie obtained with heat-killed E. coli at 7e-6 mL−1 without (left) or with (right) propidium iodide (enhanced online). The upper beam 
     correspond to scattered light wavelength (below 550 nm) while the lower beam correspond to fluorescence wavelength (above 550nm). 
