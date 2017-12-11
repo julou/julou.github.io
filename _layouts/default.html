@@ -26,7 +26,15 @@
       lightGallery(document.getElementById('lightgallery'), {
         selector: '.column>a',
         loop: false,
-        youtubePlayerParams: { modestbranding: 1, showinfo: 0, disablekb: 1, color: "white" }
+        youtubePlayerParams: { 
+          autoplay: 0, 
+          loop: 1, 
+          modestbranding: 1, 
+          rel: 0, 
+          showinfo: 0, 
+          color: "white", 
+          disablekb: 1 
+        }
       }); 
     </script>
     {% endif %}

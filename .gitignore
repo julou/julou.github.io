@@ -4,3 +4,4 @@ Gemfile.lock
 *.gem
 .jekyll-metadata
 .Rproj.user
+.Rhistory
