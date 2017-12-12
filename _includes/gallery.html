@@ -1,16 +1,16 @@
 
 <div id="lightgallery">
   <div class="row">
-  {% for item in site.data.gallery %}
+  {%- for item in site.data.gallery -%}
     <div class="column">
-      {% if item.url %}
-        {% assign link = item.url %}
-      {% else %}
-        {% assign link = item.img | prepend: "/assets/gallery/fullsize/" | prepend: site.baseurl %}
-      {% endif %}
-      {% assign caption = "" %}
-      {% if item.title %} {% assign caption = item.title | prepend: "<h4>" | append: "</h4>" %} {% endif %}
-      {% if item.caption %} {% assign caption = item.caption | markdownify | prepend: caption %} {% endif %}
+      {%- if item.url -%}
+        {%- assign link = item.url -%}
+      {%- else -%}
+        {%- assign link = item.img | prepend: "/assets/gallery/fullsize/" | prepend: site.baseurl -%}
+      {%- endif -%}
+      {%- assign caption = "" -%}
+      {%- if item.title -%} {%- assign caption = item.title | prepend: "<h4>" | append: "</h4>" -%} {%- endif -%}
+      {%- if item.caption -%} {%- assign caption = item.caption | markdownify | prepend: caption -%} {%- endif -%}
       <div id="caption{{ forloop.index }}" style="display:none">
         {{ caption }}
       </div>
@@ -18,13 +18,13 @@
         <img src="{{ item.img | prepend: "/assets/gallery/thumbnails/" | prepend: site.baseurl }}" class="u-max-full-width"/>
       </a>
     </div>
-  {% comment %}
+  {%- comment -%}
   {% assign same_row = forloop.index | modulo: 4 %}
   {% if forloop.index > 1 and same_row == 0 %}
   </div>
   <div class="row">
   {% endif %}
-  {% endcomment %}
-  {% endfor %}
+  {%- endcomment -%}
+  {%- endfor -%}
   </div>
 </div>

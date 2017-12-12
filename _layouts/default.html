@@ -15,7 +15,7 @@
 
     {% include footer.html %}
 
-    {% if page.lightgallery %}
+    {%- if page.lightgallery -%}
     <script src="{{ "/assets/vendor/lightgallery.js/js/lightgallery.min.js" | prepend: site.baseurl }}"></script>
     
     <!-- lightgallery plugins -->
@@ -26,6 +26,7 @@
       lightGallery(document.getElementById('lightgallery'), {
         selector: '.column>a',
         loop: false,
+        videoMaxWidth: '1120px',
         youtubePlayerParams: { 
           autoplay: 0, 
           loop: 1, 
@@ -37,7 +38,7 @@
         }
       }); 
     </script>
-    {% endif %}
+    {%- endif -%}
 
   </body>
 </html>

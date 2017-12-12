@@ -5,18 +5,18 @@ permalink: /projects/
 ---
 
 
-{% for project in site.projects reversed %}
-{% if project.published %}
+{%- for project in site.projects reversed -%}
+{%- if project.published -%}
   <section class="project">
     <h2>{{ project.title }}</h2>
       <p><i>with {{ project.collaborators }}.</i></p>
       <p>{{ project.content }}</p>
   </section>
 
-{% unless forloop.last %}
+{%- unless forloop.last -%}
   <hr>
-{% endunless %}
+{%- endunless -%}
 
-{% endif  %}
-{% endfor %}
+{%- endif  -%}
+{%- endfor -%}
 

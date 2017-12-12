@@ -271,7 +271,7 @@
                 a = a + '&' + utils.param(this.core.s.youtubePlayerParams);
             }
 
-            video = '<iframe class="lg-video-object lg-youtube ' + addClass + '" width="560" height="315" src="//www.youtube.com/embed/' + isVideo.youtube[1] + a + '" frameborder="0" allowfullscreen></iframe>';
+            video = '<iframe class="lg-video-object lg-youtube ' + addClass + '" width="1120" height="630" src="//www.youtube.com/embed/' + isVideo.youtube[1] + a + '" frameborder="0" allowfullscreen></iframe>';
         } else if (isVideo.vimeo) {
 
             a = '?autoplay=' + autoplay + '&api=1';

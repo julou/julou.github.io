@@ -4,15 +4,15 @@ title: Resources
 permalink: /resources/
 ---
 
-{% comment %}
+{%- comment -%}
 *toward an open lab / reproducible practices in research:*
-{% endcomment %}
+{%- endcomment -%}
 
-What makes a research project reproducible reproducible is not a simple question... Nonetheless I do believe than one should be able to reproduce ones' own analysis without pain, even in the future. This may sound all obvious, but not be so easy to achieve in practice!
+What makes a research project reproducible is not a simple question... Nonetheless I do believe than one should be able to reproduce ones' own analysis without pain, even in the future. This may sound all obvious, but not be so easy to achieve in practice!
 
 Here are some tips for students, based on my iterations toward more reproducible practices:
 
-- Start from the beginning: although it may sometimes feel like a waste of time, putting yourself in the situation of redoing your analysis easily will make your researcher's life easier (and to the very least help you to rerun chunks from earlier work).
+- Start from the beginning: although it may sometimes feel like a waste of time, putting yourself in the situation of readily redoing your analysis will make your researcher's life easier (and to the very least help you to rerun chunks from earlier work).
 
 - For each usual task (data analysis, plotting, citing references), you should master one tool down to its dirty details.
 
@@ -23,8 +23,14 @@ Here are some tips for students, based on my iterations toward more reproducible
 
 - For data analysis and plotting, I enjoy very much (most of the time!) working with `R`'s [`tidyverse`](https://www.tidyverse.org), in particular `dplyr` and `ggplot2`. If you are new to R or to data analysis from the command line, the companion book *R for Data Science* (available [online](http://r4ds.had.co.nz)) is the best introduction you can dream of. My advice: study sections 2 to 8 thoroughly, the next ones will be useful to go deeper on specific topics based on your needs.  
 Hint: if you need to speed up your analysis with `dplyr` have a look at its parallelized counterpart [`multidplyr`](https://github.com/hadley/multidplyr).
+ 
+- Dont overlook [RStudio's cheatsheets](https://www.rstudio.com/resources/cheatsheets/)!
 
 - Follow simple guidelines when [recording data in spreadsheets](http://blog.revolutionanalytics.com/2017/11/good-practices-spreadsheets.html)
+
+- Use regular expressions whenever you can. Regexs are great, regexs are tough, and regexs are poorly taught (if at all!) unless you've a computer science background: luckily Damian Conway's presentations are eye-opening (e.g. this [50' video](https://www.infoq.com/presentations/regex)) and there is a [great cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf) for R.
+
+- To share large datasets, [Zenodo](https://zenodo.org) is a great (free) service. If you use another one, make sure that your dataset gets a DOI.
 
 
 ## handling text
@@ -33,7 +39,6 @@ Hint: if you need to speed up your analysis with `dplyr` have a look at its para
 Hint: the Markdown converter used by RStudio (`pandoc-citeproc`) is able to handle citations just like bibtex would (and in fact simpler!).
 
 - For storing and citing articles, [Zotero](https://zotero.org) is the most versatile open-source software. <!-- However, its user experience is a bit rough on the edges: it took me a while to go back to it after using Papers during three years. Check [my tips to streamline saving,  storing, and citing](). -->
-
 
 
 ## handling DNA sequences

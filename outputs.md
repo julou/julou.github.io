@@ -7,12 +7,14 @@ lightgallery: true
 
 ## Gallery
 
+*Let's start with the fun bit: here are videos and pictures showcasing various aspects of my [research projects](/projects)*.
 {% include gallery.html %}
 
-{% comment %}
+{%- comment -%}
 - ceftriaxone
 - temp gradient
-{% endcomment %}
+{%- endcomment -%}
+
 
 ## Articles
 
@@ -22,11 +24,13 @@ _This list might be neither exhaustive nor up-to-date: you can also find me on [
 
 <hr>
 
+
 ## Talks & Posters
 
 {% include bibPresentations.html %}
 
 <hr>
+
 
 ## Tools
 
