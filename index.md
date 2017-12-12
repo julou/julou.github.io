@@ -13,6 +13,6 @@ In practice, I use and develop single-cell methodologies – primarily based on 
 
 Have overlapping interests? Want to learn about these approaches? Please [contact me](contact) to discuss current opportunities to work together. In particular, I always welcome applications of talented and enthusiastic students and postdocs.
 
-{% comment %}
+{%- comment -%}
 <!-- To know more about me, you can have a look at [my curriculum](#) and check [some of my other interests](#). -->
-{% endcomment %}
+{%- endcomment -%}
