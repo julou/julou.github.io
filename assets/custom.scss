@@ -175,7 +175,7 @@ footer {
   }
   .img-credit {
     text-align: center;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: 300;
     font-style: italic;
     color: #aaa;
@@ -189,6 +189,13 @@ $gallery-gutter: 2px;
   font-size: 1em;
   line-height: .5;
   margin-bottom: 5rem;
+  
+  a {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    float: left;
+  }
   
 // 2 images per row
   .column { 
@@ -224,6 +231,36 @@ $gallery-gutter: 2px;
   }
 }
 
+.lightgallery-poster {
+  // background-color: rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: background-color 0.15s ease 0s;
+  -o-transition: background-color 0.15s ease 0s;
+  transition: background-color 0.15s ease 0s;
+
+  > img {
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: opacity 0.3s ease 0s;
+    -o-transition: opacity 0.3s ease 0s;
+    transition: opacity 0.3s ease 0s;
+  }
+  img {
+    height: 48px;
+    margin-left: -24px;
+    margin-top: -24px;
+    opacity: 0.95;
+    width: 48px;
+  }
+}
 .lg-sub-html {
   max-width: 960px;
   margin: 0 auto;

@@ -16,14 +16,19 @@
       </div>
       <a href="{{ link }}" data-sub-html="#caption{{ forloop.index }}" >
         <img src="{{ item.img | prepend: "/assets/gallery/thumbnails/" | prepend: site.baseurl }}" class="u-max-full-width"/>
+        {%- if item.url -%}
+          <div class="lightgallery-poster">
+            <img src="/assets/img/play-button.png">
+          </div>
+        {%- endif -%}
       </a>
     </div>
   {%- comment -%}
   {% assign same_row = forloop.index | modulo: 4 %}
-  {% if forloop.index > 1 and same_row == 0 %}
+  {%- if forloop.index > 1 and same_row == 0 -%}
   </div>
   <div class="row">
-  {% endif %}
+  {%- endif -%}
   {%- endcomment -%}
   {%- endfor -%}
   </div>
