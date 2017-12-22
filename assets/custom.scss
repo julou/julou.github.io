@@ -281,7 +281,7 @@ $gallery-gutter: 2px;
 }
 
 .co-first::after {
-  content: "\262F";
+  content: "\262F\FE0E"; // \FE0E is a "variant-selector" that prevents transformation to emoji on mobiles
   vertical-align: super;
   font-size: 1.2rem;
 }
