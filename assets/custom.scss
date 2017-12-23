@@ -282,6 +282,7 @@ $gallery-gutter: 2px;
 
 .co-first::after {
   content: "\262F\FE0E"; // \FE0E is a "variant-selector" that prevents transformation to emoji on mobiles
+  // http://mts.io/2015/04/21/unicode-symbol-render-text-emoji/
   vertical-align: super;
   font-size: 1.2rem;
 }

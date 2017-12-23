@@ -2,6 +2,7 @@
 title: Public goods dynamics in clonal populations of bacteria
 # vignette: [[aeruginosa]]
 collaborators: Nicolas Desprat, Thierry Mora, David Bensimon, Vincent Croquette
+past: true
 ---
 
 While interested in the dynamics of siderophore producers and non-producers in spatially structured environments, we discovered that there is a large variability of siderophore abundance between producer cells in a clonal population. We characterised the temporal dynamics of siderophore abundance in details and showed that rapid exchanges between neighbouring cells support the astonishingly large variability.

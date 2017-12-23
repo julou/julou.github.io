@@ -54,6 +54,11 @@ defaults:
       path: '_posts'
     values:
       sitemap: false
+  -
+    scope:
+      path: '_projects'
+    values:
+      past: false
 
 
 # Build settings

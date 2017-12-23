@@ -26,6 +26,9 @@ Hint: if you need to speed up your analysis with `dplyr` have a look at its para
  
 - Dont overlook [RStudio's cheatsheets](https://www.rstudio.com/resources/cheatsheets/)!
 
+- Follow a well-established coding style guide. If you don't know which one to pick, use the [lintr](https://github.com/jimhester/lintr) package (along with [styler](https://github.com/r-lib/styler) for existing code) to follow the [tidyverse's style guide](http://style.tidyverse.org).
+
+
 - Follow simple guidelines when [recording data in spreadsheets](http://blog.revolutionanalytics.com/2017/11/good-practices-spreadsheets.html)
 
 - Use regular expressions whenever you can. Regexs are great, regexs are tough, and regexs are poorly taught (if at all!) unless you've a computer science background: luckily Damian Conway's presentations are eye-opening (e.g. this [50' video](https://www.infoq.com/presentations/regex)) and there is a [great cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf) for R.
@@ -60,6 +63,7 @@ Big drawback: your data must be hosted on their servers...
 
 ## academia survival kit
 
+<!-- (1998) Directed evolution of a full professor. Curr. Biol. 8, R864. -->
 - Uri Alon's [materials for nurturing scientists](http://www.weizmann.ac.il/mcb/UriAlon/materials-nurturing-scientists) is probably the best existing "academia survival kit" that I know of (and it even has [additional information](http://www.weizmann.ac.il/mcb/UriAlon/additional-information)). Below is my attempt to enrich it with a few links.
 - [*Some Modest Advice for Graduate Students*](http://onlinelibrary.wiley.com/doi/10.2307/20166580/full) by S. Stearns and R. Huey's [*Reply to Stearns: Some Acynical Advice for Graduate Students*](http://onlinelibrary.wiley.com/store/10.2307/20166581/asset/bes21987682150.pdf?v=1&t=jauajito&s=d0bcc7d5cc17ded6f0410b8e9fc808b64d4a7e51).
 - Writings such as B. Latour's [*Petites leçons de sociologie des sciences*](http://www.editionsladecouverte.fr/catalogue/index-Petites_le__ons_de_sociologie_des_sciences-9782707150127.html) and I. Stengers' [*Sciences et pouvoirs*](http://www.editionsladecouverte.fr/catalogue/index-Sciences_et_pouvoirs-9782707138576.html) ([*Power and invention*](https://www.upress.umn.edu/book-division/books/power-and-invention)) have helped me to overcome various academic frustrations and hopefully to fight some of their causes. [*Making genes, making waves*](http://www.hup.harvard.edu/catalog.php?isbn=9780674009288) by J. Beckwidth is another inspiring read.
