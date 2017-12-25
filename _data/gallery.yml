@@ -59,7 +59,6 @@
     <span class="co-first">Julou T</span>, <span class="co-first">Mora T</span>, *et al.* (2013) [Cell-cell contacts confine public goods 
     diffusion inside Pseudomonas aeruginosa clonal microcolonies](http://dx.doi.org/10.1073/pnas.1301428110). *Proc. Natl. Acad. Sci. U.S.A.* **110**, 12577–12582.
 
-
 - img: cell_counting.jpg
   url: https://youtu.be/DOSNjVKUqT0
   title: Microbial concentration measurement method based on light scattering by individual cells
@@ -68,6 +67,17 @@
     correspond to scattered light wavelength (below 550 nm) while the lower beam correspond to fluorescence wavelength (above 550nm). 
     Acquisition frequency is 3.77Hz and exposure time is 20ms. Contrast has been adjusted to improve particle visibility. Scale bar is 200 μm. <br/>
     Julou T, Desprat N, Bensimon D & Croquette V (2012) [Monitoring microbial population dynamics at low densities.](http://dx.doi.org/10.1063/1.4729796) *Rev Sci Instrum* **83**, 74301.
+
+- img: ugradient_temperature.jpg
+  url: https://youtu.be/QeSDbKJTNTQ
+  title: Collective motion of *E. coli* in dual nutrient and temperature gradients
+  caption: >  
+    Collective chemotactic motion of *E. coli* RP437 (with a plasmid confering constitutive GFP expression) in a microchannel without (top) or 
+    with (bottom) a temperature gradient. After inoculation in M9 medium, bacteria  are centrifugated to the low temperature end after inoculation. 
+    Due to their uptake of nutrients, bacteria create a gradient that triggers a chemotactic response visible as a travelling wave. In presence of 
+    a temperature gradient reaching lethal temperatures, the chamber colonization is not affected until bacteria reach very high temperature (45.5ºC). 
+    Microchannels are 20 mm long × 500 μm high × 100 μm wide. Experiment by T. Julou (LPS, ENS) and J. Saragosti (Institut Curie).
+    
 
 
 
