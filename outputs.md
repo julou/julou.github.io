@@ -15,8 +15,9 @@ lightgallery: true
 - temp gradient
 {%- endcomment -%}
 
+<hr>
 
-## Articles
+## Publications
 
 _This list might be neither exhaustive nor up-to-date: you can also find me on [google scholar](https://scholar.google.com/citations?user=prpTE68AAAAJ)._
 
