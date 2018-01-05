@@ -114,6 +114,14 @@ article {
   margin: $main-top-margin 0 $main-bottom-margin 0;
 }
 
+@media (min-width: 550px) and (max-width: 750px) {
+.column.not-narrow,
+.columns.not-narrow {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+}
+
 .csl-bib-body {
   line-height: 1.35; 
   margin-left: 2em; 
@@ -283,6 +291,9 @@ $gallery-gutter: 2px;
 
 
 // Misc
+.projects section {
+  width:33.3333333%;
+}
 .project h2 {
   margin-bottom: 0.5rem;
 }
