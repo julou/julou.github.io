@@ -5,6 +5,7 @@ permalink: /outputs/
 lightgallery: true
 ---
 
+{% capture _gallery %}
 ## Gallery
 
 *Let's start with the fun bit: here are videos and pictures showcasing various aspects of my [research projects](/projects)*.
@@ -14,33 +15,58 @@ lightgallery: true
 - ceftriaxone
 - temp gradient
 {%- endcomment -%}
+{% endcapture %}
 
-<hr>
 
+{% capture _publications %}
 ## Publications
 
 _This list might be neither exhaustive nor up-to-date: you can also find me on [google scholar](https://scholar.google.com/citations?user=prpTE68AAAAJ)._
 
 {% include bibArticles.html %}
+{% endcapture %}
 
-<hr>
 
-
+{% capture _communications %}
 ## Talks & Posters
 
 {% include bibPresentations.html %}
+{% endcapture %}
 
-<hr>
 
-
+{% capture _tools %}
 ## Tools
 
 - a [collection of scripts and configuration files](https://github.com/vanNimwegenLab/MiM_NikonTi) for quantitative light microscopy using [Micro-Manager](https://micro-manager.org).
 - a [minimalist R package](https://github.com/julou/ggCustomTJ) to tweak ggplot2 to my taste.
 - [MoMA](https://github.com/fjug/MoMA/wiki) a.k.a. the **Mo**ther **M**achine **A**nalyzer, written by [Florian Jug](https://www.mpi-cbg.de/research-groups/current-groups/florian-jug/group-leader/) in collaboration with our lab: a state-of-the-art image analysis software to track bacteria growing in microfluidics channels. 
 - [DIMM](https://metafluidics.org/devices/dual-input-mother-machine/) a.k.a the **D**ual **I**nput **M**other **M**achine: a microfluidics design for long-term growth and monitoring in precisely controlled environmental conditions.
+{% endcapture %}
 
 
+{% capture _data %}
 ## Data
 
 - [Images and raw data](https://zenodo.org/record/824793) for [<span class="co-first">Kaiser M</span>, <span class="co-first">Jug F</span>, Silander O, Deshpande S, Pfohl T, Julou T, Myers G &amp; van Nimwegen E (2016) Tracking single-cell gene regulation in dynamically controlled environments using an integrated microfluidic and computational setup. <i>bioRxiv</i> 076224.](https://www.biorxiv.org/content/early/2016/09/20/076224).
+{% endcapture %}
+
+
+{{ _gallery | markdownify }}
+<hr>
+<div class="row">
+  <div class="one-half column not-narrow">
+    {{ _publications | markdownify }}
+  </div>
+  <div class="one-half column not-narrow">
+    {{ _communications | markdownify }}
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="one-half column">
+    {{ _tools | markdownify }}
+  </div>
+  <div class="one-half column">
+    {{ _data | markdownify }}
+  </div>
+</div>
