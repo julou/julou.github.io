@@ -1,0 +1,137 @@
+/* adapted from Story by HTML5 UP */
+
+$flex-margin-top: 1.5rem;
+$flex-border-width: 1px;
+$flex-gutter: 3.5rem;
+$flex-element-margin:	2rem;
+
+/// Applies padding to an element, taking the current element-margin value into account.
+/// @param {mixed} $tb Top/bottom padding.
+/// @param {mixed} $lr Left/right padding.
+/// @param {list} $pad Optional extra padding (in the following order top, right, bottom, left)
+/// @param {bool} $important If true, adds !important.
+@mixin padding($tb, $lr, $pad: (0,0,0,0), $important: null) {
+	@if $important { $important: '!important'; }
+	$x: 0.1em;
+	@if unit($flex-element-margin) == 'rem' { $x: 0.1rem; }
+
+	padding: ($tb + nth($pad,1)) ($lr + nth($pad,2)) max($x, $tb - $flex-element-margin + nth($pad,3)) ($lr + nth($pad,4)) #{$important};
+}
+@mixin margin_from_padding($tb, $lr, $pad: (0,0,0,0)) {
+	$x: 0.1em;
+	@if unit($flex-element-margin) == 'rem' { $x: 0.1rem; }
+
+	margin: $flex-margin-top (-$lr - nth($pad,2));
+}
+
+
+@mixin items-style1-size($name, $size, $padding) {
+	&.#{$name} {
+    @include margin_from_padding($padding, $padding); 
+
+		> * {
+			@include padding($padding, $padding);
+			width: #{100% / $size};
+
+			&:nth-child(-n + #{$size}) {
+				border-top-width: 0;
+			}
+
+			&:nth-child(#{$size}n + 1) {
+				border-left-width: 0;
+			}
+		}
+	}
+}
+
+@mixin items-style1-size-reset($name, $size) {
+	&.#{$name} {
+    margin: $flex-margin-top 0; 
+
+		> * {
+			&:nth-child(-n + #{$size}) {
+				border-top-width: $flex-border-width;
+			}
+
+			&:nth-child(#{$size}n + 1) {
+				border-left-width: $flex-border-width;
+			}
+		}
+	}
+}
+
+.items.style1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	position: relative;
+
+	&.big    { margin: $flex-margin-top (-$flex-gutter); }
+	&.medium { margin: $flex-margin-top (-$flex-gutter * 0.625); }
+	&.small  { margin: $flex-margin-top (-$flex-gutter * 0.375); }
+
+	> * {
+		flex-grow: 0;
+		flex-shrink: 0;
+		box-sizing: border-box;
+		border: 0;
+		border-style: solid;
+		border-color: rgba(0, 0, 0, 0.2);
+		border-left-width: $flex-border-width;
+		border-top-width: $flex-border-width;
+	}
+
+	// Size.
+	@include items-style1-size(big, 2, $flex-gutter);
+	@include items-style1-size(medium, 3, $flex-gutter * 0.625);
+	@include items-style1-size(small, 4, $flex-gutter * 0.375);
+
+  @media (max-width: 1000px) {
+		@include items-style1-size-reset(small, 4);
+		@include items-style1-size(small, 3, $flex-gutter * 0.625);
+	}
+
+  @media (max-width: 750px) {
+		@include items-style1-size-reset(medium, 3);
+		@include items-style1-size(medium, 2, $flex-gutter);
+
+		@include items-style1-size-reset(small, 3);
+		@include items-style1-size(small, 2, $flex-gutter);
+	}
+
+  @media (max-width: 550px) {
+		@include items-style1-size-reset(big, 2);
+		@include items-style1-size(big, 1, $flex-gutter * 0.75);
+
+		@include items-style1-size-reset(medium, 2);
+		@include items-style1-size(medium, 1, $flex-gutter * 0.75);
+
+		@include items-style1-size-reset(small, 2);
+		@include items-style1-size(small, 1, $flex-gutter * 0.75);
+
+		&.big,
+		&.medium,
+		&.small {
+      margin: $flex-margin-top 0; 
+      
+			> * {
+				padding-left: 0;
+				padding-right: 0;
+			}
+
+			> :first-child {
+				padding-top: 0;
+			}
+
+			> :last-child {
+				padding-bottom: 0;
+
+				> .inner {
+					> :last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+}

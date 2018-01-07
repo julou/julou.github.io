@@ -1,18 +1,18 @@
----
----
 
 $title-fonts: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $text-fonts: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $primary-color: #28669F;
 $secondary-color: #262F36;
+$light-bg: #F4F5F6;
 $light-gray: #ddd;
 $mid-gray: #aaa;
 
 $navbar-height: 64px;
 $footer-height: 52px;
-$main-top-margin: 4rem;
+$main-top-margin: 4.5rem;
 $main-bottom-margin: 5rem;
-$main-min-height: calc(100vh - #{$navbar-height} - #{$footer-height} - #{$main-top-margin} - #{$main-bottom-margin});
+//$main-min-height: calc(100vh - #{$navbar-height} - #{$footer-height} - #{$main-top-margin} - #{$main-bottom-margin});
+$main-min-height: calc(100vh - #{$navbar-height} - #{$main-top-margin} - #{$main-bottom-margin});
 
 
 // Fonts
@@ -165,46 +165,77 @@ footer {
 
 
 // Homepage
-.home {
-  min-height: $main-min-height;
-  display: table;
+.page-about {
+  section {
+    padding: 4.5rem 0 5rem 0;
+  }
   
+  #section-intro {
+  background-color: $primary-color;
+
+  color: $light-gray;
+  a { color: white; }
+  a:hover { color: white; }
+  h1, h2 { color: white; }
+
+  .container {
+    display: table;
+    min-height: $main-min-height;
+  }
+    
   .row {
     display: table-cell;
     vertical-align: middle;
     padding-bottom: 3.5rem;
   }
-
+  
   h2 { 
-  text-transform: uppercase;
-  font-variant: normal;
-  font-size: 1.8rem; 
-  line-height: 1.5; 
-  letter-spacing: .05rem; 
+    text-transform: uppercase;
+    font-variant: normal;
+    font-size: 1.8rem; 
+    font-weight: 300;
+    line-height: 1.5; 
+    letter-spacing: .05rem; 
   }
-
+  
   img {
     width: 100%;
     height: 100%;
     border-radius: 100%;
   }
-  .img-credit {
-    text-align: center;
-    font-size: 0.9em;
-    font-weight: 300;
-    font-style: italic;
-    color: #aaa;
+    .img-credit {
+      text-align: center;
+      font-size: 0.9em;
+      font-weight: 300;
+      font-style: italic;
+      color: #aaa;
+    }
+  }
+  #section-projects {
+    padding: 4.5rem 0 2rem 0;
+    h1 { margin-bottom: 0; }
+  }
+  #section-contact {
+    background-color: $light-bg;
+    padding: 4.5rem 0 5rem 0;
   }
 }
 
 
 // Gallery 
+.page-outputs {
+  section {
+    padding: 4.5rem 0 5rem 0;
+  }
+  #section-publns {
+    background-color: $light-bg;
+  }
+}
 $gallery-gutter: 2px;
 #lightgallery {
   font-size: 1em;
   line-height: .5;
-  margin-bottom: 5rem;
-  
+
   a {
     display: block;
     overflow: hidden;
@@ -291,9 +322,6 @@ $gallery-gutter: 2px;
 
 
 // Misc
-.projects section {
-  width:33.3333333%;
-}
 .project h2 {
   margin-bottom: 0.5rem;
 }

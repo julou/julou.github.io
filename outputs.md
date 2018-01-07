@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Outputs
 permalink: /outputs/
 lightgallery: true
@@ -8,7 +8,7 @@ lightgallery: true
 {% capture _gallery %}
 ## Gallery
 
-*Let's start with the fun bit: here are videos and pictures showcasing various aspects of my [research projects](/projects)*.
+*Let's start with the fun bit: here are videos and pictures showcasing various aspects of my [research projects](/#projects)*.
 {% include gallery.html %}
 
 {%- comment -%}
@@ -51,22 +51,36 @@ _This list might be neither exhaustive nor up-to-date: you can also find me on [
 {% endcapture %}
 
 
-{{ _gallery | markdownify }}
-<hr>
-<div class="row">
-  <div class="one-half column not-narrow">
-    {{ _publications | markdownify }}
+<section id="section-gallery">
+  <div class="container">
+    <h1>Outputs</h1>
+    
+    {{ _gallery | markdownify }}
   </div>
-  <div class="one-half column not-narrow">
-    {{ _communications | markdownify }}
+</section>
+
+<section id="section-publns">
+  <div class="container">
+    <div class="row">
+      <div class="one-half column not-narrow">
+        {{ _publications | markdownify }}
+      </div>
+      <div class="one-half column not-narrow">
+        {{ _communications | markdownify }}
+      </div>
+    </div>
   </div>
-</div>
-<hr>
-<div class="row">
-  <div class="one-half column">
-    {{ _tools | markdownify }}
+</section>
+
+<section id="section-shared">
+  <div class="container">
+    <div class="row">
+      <div class="one-half column">
+        {{ _tools | markdownify }}
+      </div>
+      <div class="one-half column">
+        {{ _data | markdownify }}
+      </div>
+    </div>
   </div>
-  <div class="one-half column">
-    {{ _data | markdownify }}
-  </div>
-</div>
+</section>

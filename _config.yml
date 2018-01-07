@@ -35,11 +35,11 @@ collections:
 # Link only those pages (in order) in the header navigation
 header_pages:
  - index.md
- - projects.md
+# - projects.md
  - outputs.md
  - resources.md
  - notes.md
- - contact.md
+# - contact.md
 
 defaults:
   -
