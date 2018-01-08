@@ -2,6 +2,9 @@
 layout: default
 title: About
 permalink: /
+redirect_from:
+  - /projects/
+  - /contact/
 ---
 
 {% capture intro %}

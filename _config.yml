@@ -68,6 +68,7 @@ permalink: /notes/:categories/:title.html
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
   - jekyll-feed
 
 # Exclude from processing.
