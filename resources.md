@@ -16,7 +16,7 @@ Here are some tips for students, based on my iterations toward more reproducible
 
 - For each usual task (data analysis, plotting, citing references), you should master one tool down to its dirty details.
 
-- Relying on text-based formats (e.g. Markdown, LaTeX, CSV) is critical in order to be able to use version control to maintain your code, to write manuscripts, etc. This may indeed guide your choice of tools. A good starting points ot learn version control with `git` is the Software Carpentry [tutorial](https://swcarpentry.github.io/git-novice/). GitHub's [documentation](https://help.github.com) provides help on more advanced topics.
+- Relying on text-based formats (e.g. Markdown, LaTeX, CSV) is critical in order to be able to use version control to maintain your code, to write manuscripts, etc. This may indeed guide your choice of tools. A good starting points to learn version control with `git` is the Software Carpentry [tutorial](https://swcarpentry.github.io/git-novice/). GitHub's [documentation](https://help.github.com) provides help on more advanced topics.
 
 
 ## handling data
