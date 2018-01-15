@@ -47,7 +47,7 @@ _This list might be neither exhaustive nor up-to-date: you can also find me on [
 {% capture _data %}
 ## Data
 
-- [Images and raw data](https://zenodo.org/record/824793) for [<span class="co-first">Kaiser M</span>, <span class="co-first">Jug F</span>, Silander O, Deshpande S, Pfohl T, Julou T, Myers G &amp; van Nimwegen E (2016) Tracking single-cell gene regulation in dynamically controlled environments using an integrated microfluidic and computational setup. <i>bioRxiv</i> 076224.](https://www.biorxiv.org/content/early/2016/09/20/076224).
+- [Images and raw data](https://doi.org/10.5281/zenodo.824793) for [Kaiser M, Jug F, Julou T, <i>et al.</i>, <i>Nat Commun</i>. <b>9</b>, 212 (2018)](https://doi.org/10.1038/s41467-017-02505-0).
 {% endcapture %}
 
 
