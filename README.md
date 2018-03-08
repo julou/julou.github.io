@@ -1,13 +1,14 @@
 This is the code used to power the personnal website of Thomas Julou. It is powered by Jekyll nad hosted on Github page.
 The theme is derived from [jekyll-skeleton](https://github.com/awochna/jekyll-skeleton/) (© 2016 Alex Wynter).
 
-The code of this website (everything **but** Markdown (.md) and YAML (.yml) files) is distributed under the MIT license.
+The code of this website (everything **but** media, Markdown (.md) and YAML (.yml) files) is distributed under the MIT license.
 The content of this website (Markdown (.md) and YAML (.yml) files) is distributed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 
 ## Notes regarding the implementation
 
 - Despite the temptation of fancy available themes, I decided to stick to the [Skeleton](http://getskeleton.com) boilerplate for its minimalism. I followed the recommandation of designing for mobile first and to add media queries for wider screens when necessary.
+Items design adapted from the Story theme by HTML5up.
 
 - tried to control whitespace of liquid tags using [hyphenised tags](https://shopify.github.io/liquid/basics/whitespace/).
 
