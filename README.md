@@ -1,4 +1,4 @@
-This is the code used to power the personnal website of Thomas Julou. It is powered by Jekyll nad hosted on Github page.
+This is the code used to power the personnal website of Thomas Julou. It is powered by Jekyll and hosted on Github Pages.
 The theme is derived from [jekyll-skeleton](https://github.com/awochna/jekyll-skeleton/) (© 2016 Alex Wynter).
 
 The code of this website (everything **but** media, Markdown (.md) and YAML (.yml) files) is distributed under the MIT license.
@@ -17,3 +17,8 @@ Items design adapted from the Story theme by HTML5up.
 - used youtube for videos and disabled branding and content suggestion as much as possible. NB: you can change the license of your youtube videos to a creative commons one.
 
 - favicon generated with http://www.favicomatic.com (lazy presets)
+
+
+## How to
+
+- run locally: `bundle exec jekyll serve`

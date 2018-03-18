@@ -64,11 +64,17 @@ Big drawback: your data must be hosted on their servers...
 ## academia survival kit
 
 <!-- (1998) Directed evolution of a full professor. Curr. Biol. 8, R864. -->
+
 - Uri Alon's [materials for nurturing scientists](http://www.weizmann.ac.il/mcb/UriAlon/materials-nurturing-scientists) is probably the best existing "academia survival kit" that I know of (and it even has [additional information](http://www.weizmann.ac.il/mcb/UriAlon/additional-information)). Below is my attempt to enrich it with a few links.
-- [*Some Modest Advice for Graduate Students*](http://onlinelibrary.wiley.com/doi/10.2307/20166580/full) by S. Stearns and R. Huey's [*Reply to Stearns: Some Acynical Advice for Graduate Students*](http://onlinelibrary.wiley.com/store/10.2307/20166581/asset/bes21987682150.pdf?v=1&t=jauajito&s=d0bcc7d5cc17ded6f0410b8e9fc808b64d4a7e51).
-- Writings such as B. Latour's [*Petites leçons de sociologie des sciences*](http://www.editionsladecouverte.fr/catalogue/index-Petites_le__ons_de_sociologie_des_sciences-9782707150127.html) and I. Stengers' [*Sciences et pouvoirs*](http://www.editionsladecouverte.fr/catalogue/index-Sciences_et_pouvoirs-9782707138576.html) ([*Power and invention*](https://www.upress.umn.edu/book-division/books/power-and-invention)) have helped me to overcome various academic frustrations and hopefully to fight some of their causes. [*Making genes, making waves*](http://www.hup.harvard.edu/catalog.php?isbn=9780674009288) by J. Beckwidth is another inspiring read.
+
+- [*Some Modest Advice for Graduate Students*](http://onlinelibrary.wiley.com/doi/10.2307/20166580/full) by S. Stearns and R. Huey's [*Reply to Stearns: Some Acynical Advice for Graduate Students*](http://onlinelibrary.wiley.com/store/10.2307/20166581/asset/bes21987682150.pdf?v=1&t=jauajito&s=d0bcc7d5cc17ded6f0410b8e9fc808b64d4a7e51).
+
+- Writings such as B. Latour's [*Petites leçons de sociologie des sciences*](http://www.editionsladecouverte.fr/catalogue/index-Petites_le__ons_de_sociologie_des_sciences-9782707150127.html) and I. Stengers' [*Sciences et pouvoirs*](http://www.editionsladecouverte.fr/catalogue/index-Sciences_et_pouvoirs-9782707138576.html) ([*Power and invention*](https://www.upress.umn.edu/book-division/books/power-and-invention)) have helped me to overcome various academic frustrations and hopefully to fight some of their causes. [*Making genes, making waves*](http://www.hup.harvard.edu/catalog.php?isbn=9780674009288) by J. Beckwidth is another inspiring read.
+
 - L'Atelier des Jours à Venir, a French non-profit company promoting reflexive and responsible research practices, gathered valuable [resources](http://www.joursavenir.org/Resources).
+
 <!-- - contribution NKI -->
+
 - On research integrity: I was a founder of the [Scientific Red Cards](https://scientificredcards.wordpress.com) initiative (discontinued). Related issues are currently addressed by [Retraction Watch](https://retractionwatch.com) and [PubPeer](https://pubpeer.com).
   <!-- + blog post -->
   
