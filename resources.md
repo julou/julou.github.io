@@ -76,5 +76,8 @@ Big drawback: your data must be hosted on their servers...
 <!-- - contribution NKI -->
 
 - On research integrity: I was a founder of the [Scientific Red Cards](https://scientificredcards.wordpress.com) initiative (discontinued). Related issues are currently addressed by [Retraction Watch](https://retractionwatch.com) and [PubPeer](https://pubpeer.com).
+
+- Need a practical guide to research integrity? I find the [guidelines of Piet Borst](https://joursavenir.wordpress.com/2018/03/25/integrity-in-science-by-piet-borst/) one of the most insightful! In particular, his "advice [to be] generous towards your colleagues and tough towards yourself. Nearly everybody has the tendency to overestimate his own contribution to the research of others and underestimate the contribution of other people to his own work." Probably worth meditating every time one is upset by the status of a collaboration...
+
   <!-- + blog post -->
   
