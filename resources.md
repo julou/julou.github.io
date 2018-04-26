@@ -31,7 +31,7 @@ Hint: if you need to speed up your analysis with `dplyr` have a look at its para
 
 - Follow simple guidelines when [recording data in spreadsheets](http://blog.revolutionanalytics.com/2017/11/good-practices-spreadsheets.html)
 
-- Use regular expressions whenever you can. Regexs are great, regexs are tough, and regexs are poorly taught (if at all!) unless you've a computer science background: luckily Damian Conway's presentations are eye-opening (e.g. this [50' video](https://www.infoq.com/presentations/regex)) and there is a [great cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf) for R.
+- Use regular expressions whenever you can. Regexs are great, regexs are tough, and regexs are poorly taught (if at all!) unless you've a computer science background: luckily Damian Conway's presentations are eye-opening (e.g. this [50' video](https://www.infoq.com/presentations/regex)) and there is a [great cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf) for R. Also you want to view what you're doing, e.g. within RStudio using [RegExplain addin]() or online with [RegExr.com](https://regexr.com/).
 
 - To share large datasets, [Zenodo](https://zenodo.org) is a great (free) service. If you use another one, make sure that your dataset gets a DOI.
 
@@ -77,7 +77,7 @@ Big drawback: your data must be hosted on their servers...
 
 - On research integrity: I was a founder of the [Scientific Red Cards](https://scientificredcards.wordpress.com) initiative (discontinued). Related issues are currently addressed by [Retraction Watch](https://retractionwatch.com) and [PubPeer](https://pubpeer.com).
 
-- Need a practical guide to research integrity? I find the [guidelines of Piet Borst](https://joursavenir.wordpress.com/2018/03/25/integrity-in-science-by-piet-borst/) one of the most insightful! In particular, his "advice [to be] generous towards your colleagues and tough towards yourself. Nearly everybody has the tendency to overestimate his own contribution to the research of others and underestimate the contribution of other people to his own work." Probably worth meditating every time one is upset by the status of a collaboration...
+- Need a practical guide to research integrity? I find the [guidelines of Piet Borst](https://joursavenir.wordpress.com/2018/03/25/integrity-in-science-by-piet-borst/) one of the most insightful! In particular, his "advice is to be generous towards your colleagues and tough towards yourself. Nearly everybody has the tendency to overestimate his own contribution to the research of others and underestimate the contribution of other people to his own work." Probably worth meditating every time one is upset by the status of a collaboration...
 
   <!-- + blog post -->
   
