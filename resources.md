@@ -31,7 +31,7 @@ Hint: if you need to speed up your analysis with `dplyr` have a look at its para
 
 - Follow simple guidelines when [recording data in spreadsheets](http://blog.revolutionanalytics.com/2017/11/good-practices-spreadsheets.html)
 
-- Use regular expressions whenever you can. Regexs are great, regexs are tough, and regexs are poorly taught (if at all!) unless you've a computer science background: luckily Damian Conway's presentations are eye-opening (e.g. this [50' video](https://www.infoq.com/presentations/regex)) and there is a [great cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf) for R. Also you want to view what you're doing, e.g. within RStudio using [RegExplain addin]() or online with [RegExr.com](https://regexr.com/).
+- Use regular expressions whenever you can. Regexs are great, regexs are tough, and regexs are poorly taught (if at all!) unless you've a computer science background: luckily Damian Conway's presentations are eye-opening (e.g. this [50' video](https://www.infoq.com/presentations/regex)) and there is a [great cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf) for R. Also you want to view what you're doing, e.g. within RStudio using [RegExplain addin](https://github.com/gadenbuie/regexplain) or online with [RegExr.com](https://regexr.com/).
 
 - To share large datasets, [Zenodo](https://zenodo.org) is a great (free) service. If you use another one, make sure that your dataset gets a DOI.
 
@@ -54,7 +54,7 @@ Big drawback: your data must be hosted on their servers...
 
 - [Micro-Manager](https://micro-manager.org) is an open-source software for microscope control. If your hardware falls in the list of (over 200) supported items, it is very easy to configure and can be extended to support advanced features such as hardware triggering (on which we wrote a [step-by-step tutorial](https://github.com/vanNimwegenLab/MiM_NikonTi/blob/master/Docs/NikonTi_hardware_triggering.md)). 
 
-- A smooth [introduction lecture to fluorescence microscopy](https://www.ibiology.org/ibioeducation/taking-courses/ibiology-microscopy-short-course/introduction-to-fluorescence-microscopy-2.html).
+- A smooth [introduction lecture to fluorescence microscopy](https://www.ibiology.org/talks/introduction-fluorescence-microscopy/).
 
 <!-- - IJ Fiji resources -->
 
@@ -67,7 +67,7 @@ Big drawback: your data must be hosted on their servers...
 
 - Uri Alon's [materials for nurturing scientists](http://www.weizmann.ac.il/mcb/UriAlon/materials-nurturing-scientists) is probably the best existing "academia survival kit" that I know of (and it even has [additional information](http://www.weizmann.ac.il/mcb/UriAlon/additional-information)). Below is my attempt to enrich it with a few links.
 
-- [*Some Modest Advice for Graduate Students*](http://onlinelibrary.wiley.com/doi/10.2307/20166580/full) by S. Stearns and R. Huey's [*Reply to Stearns: Some Acynical Advice for Graduate Students*](http://onlinelibrary.wiley.com/store/10.2307/20166581/asset/bes21987682150.pdf?v=1&t=jauajito&s=d0bcc7d5cc17ded6f0410b8e9fc808b64d4a7e51).
+- [*Some Modest Advice for Graduate Students*](http://onlinelibrary.wiley.com/doi/10.2307/20166580/full) by S. Stearns and R. Huey's [*Reply to Stearns: Some Acynical Advice for Graduate Students*](http://onlinelibrary.wiley.com/doi/10.2307/20166581/full).
 
 - Writings such as B. Latour's [*Petites leçons de sociologie des sciences*](http://www.editionsladecouverte.fr/catalogue/index-Petites_le__ons_de_sociologie_des_sciences-9782707150127.html) and I. Stengers' [*Sciences et pouvoirs*](http://www.editionsladecouverte.fr/catalogue/index-Sciences_et_pouvoirs-9782707138576.html) ([*Power and invention*](https://www.upress.umn.edu/book-division/books/power-and-invention)) have helped me to overcome various academic frustrations and hopefully to fight some of their causes. [*Making genes, making waves*](http://www.hup.harvard.edu/catalog.php?isbn=9780674009288) by J. Beckwidth is another inspiring read.
 
