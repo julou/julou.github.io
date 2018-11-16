@@ -1,9 +1,17 @@
 # most recent first 
 # thumbnails must be 348 x 235
 
+- img: dimm_ceftriaxone.jpg
+  url: https://youtu.be/Jf0bCTNJ6h0
+  title: <i>E. coli</i> killing by ceftriaxone
+  caption: >
+    Quantitative fluorescence timelapse experiment: *E. coli* MG1655 is grown in the Dual Input Mother Machine microfluidic chip with 
+    environment control and exposed to 100µg/mL ceftriaxone after 6h. The fluorescence channel shows the expression of LacZ-GFP 
+    induced with 50µg/mL IPTG during the whole experiment. Frames are acquired every 3 minutes.
+    
 - img: dimm_lambda_infection.jpg
   url: https://youtu.be/03CFjryYFNI
-  title: Infection of E. coli by <span class="raw-case">λ</span> phage
+  title: Infection of <i>E. coli</i> by <span class="raw-case">λ</span> phage
   caption: >
     *E. coli* MG1655 is grown in a [DIMM](https://metafluidics.org/devices/dual-input-mother-machine/) chip and infected with 
     fluorescent λ phage (LZ641) after 3 hours. The phase contrast and GFP channels have been overlaid. Frames are acquired every 4 minutes. <br/>
