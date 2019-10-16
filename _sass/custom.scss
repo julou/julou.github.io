@@ -340,6 +340,12 @@ $gallery-gutter: 2px;
   vertical-align: super;
   font-size: 1.2rem;
 }
+.corresp-auth::after {
+  content: "\0040\FE0E"; // \FE0E is a "variant-selector" that prevents transformation to emoji on mobiles
+  // http://mts.io/2015/04/21/unicode-symbol-render-text-emoji/
+  vertical-align: super;
+  font-size: 1.2rem;
+}
 .raw-case {
   text-transform: none;
 }
