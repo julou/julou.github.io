@@ -52,6 +52,7 @@ defaults:
   -
     scope:
       path: '_posts'
+      published: false
     values:
       sitemap: false
   -
@@ -71,7 +72,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-feed
 sass:
-    style: compressed
+    # style: compressed
     
 # Exclude from processing.
 exclude:

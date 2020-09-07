@@ -71,22 +71,17 @@ If you visit us, Biozentrum can easily be reached from Basel main station with b
     </div>
   {%- endif  -%}
   {%- endfor -%}
+      <div class="project">
+      <!-- empty box -->
+      </div>
+      
+      <div class="project">
+        <h2>Past projects</h2>
+          <p>Read more <a href="archive">here</a> on my past research projects…</p>  
+      </div>
   </div>
   
-  
-  <h1>Past projects</h1>
-  
-  <div class="items style1 medium">
-  {%- for project in past_projects reversed -%}
-  {%- if project.published -%}
-    <div class="project">
-      <h2>{{ project.title }}</h2>
-        <p><i>with {{ project.collaborators }}.</i></p>
-        <p>{{ project.content }}</p>
-    </div>
-  {%- endif  -%}
-  {%- endfor -%}
-  </div>
+
   </div>
 </section>
 
