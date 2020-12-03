@@ -38,7 +38,7 @@ Hint: if you need to speed up your analysis with `dplyr` have a look at its para
 
 ## handling text
 
-- Despite LaTeX's popularity in quantitative fields, I believe that the time is ripe to leave it to advanced editing where microtypography matters... Simpler syntaxes (in particular Markdown) are sufficient for literate data analysis (e.g. with Rmarkdown or R notebooks) and even for more advance tasks like [writing a dissertation](https://github.com/tompollard/phd_thesis_markdown) or [an article](https://github.com/rstudio/rticles); I put online a (template)[https://github.com/julou/sci-article-with-R] to render a manuscript and its companion supplementary material with cross-reference. Whatever format you choose to rely on, don't miss that `pandoc` is an incredibly powerful conversion tools between most formats (.md, .tex, .rtf, .docx, etc).  
+- Despite LaTeX's popularity in quantitative fields, I believe that the time is ripe to leave it to advanced editing where microtypography matters... Simpler syntaxes (in particular Markdown) are sufficient for literate data analysis (e.g. with Rmarkdown or R notebooks) and even for more advance tasks like [writing a dissertation](https://github.com/tompollard/phd_thesis_markdown) or [an article](https://github.com/rstudio/rticles); I put online a [template](https://github.com/julou/sci-article-with-R) to render a manuscript and its companion supplementary material with cross-reference. Whatever format you choose to rely on, don't miss that `pandoc` is an incredibly powerful conversion tools between most formats (.md, .tex, .rtf, .docx, etc).  
 Hint: the Markdown converter used by RStudio (`pandoc-citeproc`) is able to handle citations just like bibtex would (and in fact simpler!).
 
 - For storing and citing articles, [Zotero](https://zotero.org) is the most versatile open-source software. <!-- However, its user experience is a bit rough on the edges: it took me a while to go back to it after using Papers during three years. Check [my tips to streamline saving,  storing, and citing](). -->
@@ -46,7 +46,7 @@ Hint: the Markdown converter used by RStudio (`pandoc-citeproc`) is able to hand
 
 ## handling DNA sequences
 
-- [Benchling](https://benchling.com) is the 21st century sequence editor to design and keep track of your molecular biology experiments: design primers, align sequencing chromatograms, test your next cloning *in silico*. It even as an integrated lab notebook!  
+- [Benchling](https://benchling.com) is the 21st century sequence editor to design and keep track of your molecular biology experiments: design primers, align sequencing chromatograms, test your next cloning *in silico*. It even has an integrated lab notebook!  
 Big drawback: your data must be hosted on their servers...
 
 
@@ -54,7 +54,7 @@ Big drawback: your data must be hosted on their servers...
 
 - [Micro-Manager](https://micro-manager.org) is an open-source software for microscope control. If your hardware falls in the list of (over 200) supported items, it is very easy to configure and can be extended to support advanced features such as hardware triggering (on which we wrote a [step-by-step tutorial](https://github.com/vanNimwegenLab/MiM_NikonTi/blob/master/Docs/NikonTi_hardware_triggering.md)). 
 
-- A smooth [introduction lecture to fluorescence microscopy](https://www.ibiology.org/talks/introduction-fluorescence-microscopy/) taken from a great (large series)[https://www.ibiology.org/online-biology-courses/microscopy-series/microscopy-series-table-contents/].
+- A smooth [introduction lecture to fluorescence microscopy](https://www.ibiology.org/talks/introduction-fluorescence-microscopy/) taken from a great [large series](https://www.ibiology.org/online-biology-courses/microscopy-series/microscopy-series-table-contents/).
 
 <!-- - IJ Fiji resources -->
 
