@@ -44,7 +44,7 @@ If you visit us, Biozentrum can easily be reached from Basel main station with b
     <div class="row">
       <div class="one-third column">
         <img src="/assets/img/thomasjulou.jpg">
-        <p class="img-credit">photo by G. Hofman</p>
+        <!-- <p class="img-credit">photo by G. Hofman</p> -->
       </div>
       
       <div class="two-thirds column">
