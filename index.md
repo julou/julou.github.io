@@ -71,16 +71,13 @@ If you visit us, Biozentrum can easily be reached from Basel main station with b
     </div>
   {%- endif  -%}
   {%- endfor -%}
-      <div class="project">
-      <!-- empty box -->
-      </div>
-      
+
       <div class="project">
         <h2>Past projects</h2>
           <p>Read more <a href="archive">here</a> on my past research projects…</p>  
       </div>
+
   </div>
-  
 
   </div>
 </section>
