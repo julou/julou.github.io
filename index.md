@@ -11,11 +11,11 @@ redirect_from:
 # Thomas Julou
 ## Senior Scientist at the [Biozentrum](https://www.biozentrum.unibas.ch/research/groups-platforms/overview/unit/nimwegen/) (Basel)
 
-In my research, I use microbes to address questions related to phenotypic variability, _i.e._ to study the range of phenotypes realised by microbial cells with the same genetic information in the same environment. My interests and [projects](#projects) range from the molecular mechanisms underlying phenotypic variability to its evolutionary implications for microbial populations. Beyond their fundamental interests, understanding these questions is also critical to prevent the emergence of antibiotics “persistence” and to optimise synthesis processes in biotechnological industries.
+In my research, I combine quantitative experiments and theoretical models to elucidate how robust properties observed in bacterial populations arise from the seemingly stochastic dynamics observed in individual cells. Because bacteria are small and the chemical reactions involved in gene expression are inherently stochastic, different individual bacteria display different properties – so called phenotypes – even when they are genetically identical and exposed to the same environment. My [projects](#projects) investigate the molecular mechanisms underlying this phenotypic variability, as well as its functional and evolutionary implications. 
 
-In practice, I use and develop single-cell methodologies – primarily based on microfluidics, quantitative light microscopy and quantitative flow cytometry. Moreover, I cherish a very tight integration of the experimental and modelling components for every project. I implement and promote [reproducible practices](resources) for experimental research and data analysis, and rely as much as possible on open source tools.
+In practice, I develop new tools to study bacteria with single-cell resolution, in particular using microfluidics and image analysis. In parallel, I implement and promote [reproducible practices](resources) for experimental research and data analysis, and rely as much as possible on open source tools.
 
-Have overlapping interests? Want to learn about these approaches? Please [contact me](#contact) to discuss current opportunities to work together. In particular, I always welcome applications of talented and enthusiastic students and postdocs.
+Have overlapping interests? Want to learn more about these approaches? Please [contact me](#contact) to discuss current opportunities to work together. In particular, I always welcome applications from talented and enthusiastic students and postdocs.
 
 {%- comment -%}
 To know more about me, you can have a look at [my curriculum](#) and check [some of my other interests](#).
@@ -27,15 +27,14 @@ To know more about me, you can have a look at [my curriculum](#) and check [some
 If you are a human or friendly sentient AI: my email is *thomas.julou*, followed immediately by *@normalesup.org*
 
 Thomas Julou  
-Computational and Systems Biology  
 Biozentrum – University of Basel  
-Klingelbergstr. 50/70  
+Spitalstrasse 41  
 4056 Basel  
 Switzerland
 
 <hr>
 
-If you visit us, Biozentrum can easily be reached from Basel main station with bus 30 (stop on the left when exiting the station; direction Bad Bf, stop Bernouillanum) and from the airport with bus 50 (stop Kanenfeldplatz). Our lab is on the 6th floor of Pharmazentrum (room PZ6020).
+To visit us, the Biozentrum is easily accessible from Basel main station by bus 30 (stop on the left when exiting the station; direction Bad Bf, stop UKBB) and from the airport by bus 50 (stop Kanenfeldplatz). Our lab is located on the 8th floor, first "quadrant" of the Biozentrum (room 08.018).
 {% endcapture %}
 
 
