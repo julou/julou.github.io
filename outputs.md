@@ -47,6 +47,9 @@ _This list might be neither exhaustive nor up-to-date: you can also find me on [
 {% capture _data %}
 ## Data
 
+- [Images](https://doi.org/10.17867/10000149) (raw and preprocessed datasets), [raw data](https://doi.org/10.5281/zenodo.3894719") and [analysis scripts]("https://github.com/julou/MoM_lacInduction/releases/tag/plos") 
+for [Julou T, <i>et al.</i>, <i>PLoS Biology</i>. <b>18</b>, e3000952 (2020)](https://doi.org/10.1371/journal.pbio.3000952).
+
 - [Images](https://doi.org/10.5281/zenodo.3149097) and [raw data with analysis scripts](https://github.com/guiwitz/DoubleAdderArticle) for [Witz G, van Nimwegen E &amp; Julou T, <i>eLife</i>. <b>8</b>, e48063 (2019)](https://doi.org/10.7554/eLife.48063).
 
 - [Images and raw data](https://doi.org/10.5281/zenodo.824793) for [Kaiser M, Jug F, Julou T, <i>et al.</i>, <i>Nat Commun</i>. <b>9</b>, 212 (2018)](https://doi.org/10.1038/s41467-017-02505-0).
