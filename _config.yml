@@ -25,7 +25,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://julou.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-110860289-1
-twitter_username: ThomasJulou
+# twitter_username: ThomasJulou
+bluesky_username: ThomasJulou
 github_username:  julou
 linkedin_username: thomasjulou
 
@@ -78,3 +79,4 @@ sass:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor

@@ -20,6 +20,15 @@
       </li>
       {%- endif -%}
 
+      {%- if site.bluesky_username -%}
+      <li>
+        <a style="text-decoration: none;" href="https://bsky.app/profile/{{ site.bluesky_username }}.bsky.social">
+          <span>{% include icon_bluesky.svg %}</span>
+          <span>Bluesky</span>
+        </a>
+      </li>
+      {%- endif -%}
+
       {%- if site.linkedin_username -%}
       <li>
         <a style="text-decoration: none;" href="https://linkedin.com/in/{{ site.linkedin_username }}">
