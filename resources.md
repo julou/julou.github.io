@@ -21,10 +21,10 @@ Here are some tips for students, based on my iterations toward more reproducible
 
 ## handling data
 
-- For data analysis and plotting, I enjoy very much (most of the time!) working with `R`'s [`tidyverse`](https://www.tidyverse.org), in particular `dplyr` and `ggplot2`. If you are new to R or to data analysis from the command line, the companion book *R for Data Science* (available [online](http://r4ds.had.co.nz)) is the best introduction you can dream of. My advice: study sections 2 to 8 thoroughly, the next ones will be useful to go deeper on specific topics based on your needs.  
+- For data analysis and plotting, I enjoy very much (most of the time!) working with `R`'s [`tidyverse`](https://www.tidyverse.org), in particular `dplyr` and `ggplot2`. If you are new to R or to data analysis from the command line, the companion book *R for Data Science* (available [online](https://r4ds.hadley.nz)) is the best introduction you can dream of. My advice: study sections 2 to 8 thoroughly, the next ones will be useful to go deeper on specific topics based on your needs.  
 Hint: if you need to speed up your analysis with `dplyr` have a look at its parallelized counterpart [`multidplyr`](https://github.com/hadley/multidplyr).
  
-- Dont overlook [RStudio's cheatsheets](https://www.rstudio.com/resources/cheatsheets/)!
+- Dont overlook [Posit's cheatsheets](https://www.rstudio.com/resources/cheatsheets/)!
 
 - Follow a well-established coding style guide. If you don't know which one to pick, use the [lintr](https://github.com/jimhester/lintr) package (along with [styler](https://github.com/r-lib/styler) for existing code) to follow the [tidyverse's style guide](http://style.tidyverse.org).
 
@@ -65,13 +65,13 @@ Big drawback: your data must be hosted on their servers...
 
 <!-- (1998) Directed evolution of a full professor. Curr. Biol. 8, R864. -->
 
-- Uri Alon's [materials for nurturing scientists](http://www.weizmann.ac.il/mcb/UriAlon/materials-nurturing-scientists) is probably the best existing "academia survival kit" that I know of (and it even has [additional information](http://www.weizmann.ac.il/mcb/UriAlon/additional-information)). Below is my attempt to enrich it with a few links.
+- Uri Alon's [materials for nurturing scientists](https://www.weizmann.ac.il/mcb/alon/nurturing-science) is probably the best existing "academia survival kit" that I know of (and it even has [additional information](https://www.weizmann.ac.il/mcb/alon/additional-information)). Below is my attempt to enrich it with a few links.
 
-- [*Some Modest Advice for Graduate Students*](http://onlinelibrary.wiley.com/doi/10.2307/20166580/full) by S. Stearns and R. Huey's [*Reply to Stearns: Some Acynical Advice for Graduate Students*](http://onlinelibrary.wiley.com/doi/10.2307/20166581/full).
+- [*Some Modest Advice for Graduate Students*](https://doi.org/10.2307/20166580) by S. Stearns and R. Huey's [*Reply to Stearns: Some Acynical Advice for Graduate Students*](https://doi.org/10.2307/20166581).
 
-- Writings such as B. Latour's [*Petites leçons de sociologie des sciences*](http://www.editionsladecouverte.fr/catalogue/index-Petites_le__ons_de_sociologie_des_sciences-9782707150127.html) and I. Stengers' [*Sciences et pouvoirs*](http://www.editionsladecouverte.fr/catalogue/index-Sciences_et_pouvoirs-9782707138576.html) ([*Power and invention*](https://www.upress.umn.edu/book-division/books/power-and-invention)) have helped me to overcome various academic frustrations and hopefully to fight some of their causes. [*Making genes, making waves*](http://www.hup.harvard.edu/catalog.php?isbn=9780674009288) by J. Beckwidth is another inspiring read.
+- Writings such as B. Latour's [*Petites leçons de sociologie des sciences*](http://www.editionsladecouverte.fr/catalogue/index-Petites_le__ons_de_sociologie_des_sciences-9782707150127.html) and I. Stengers' [*Sciences et pouvoirs*](http://www.editionsladecouverte.fr/catalogue/index-Sciences_et_pouvoirs-9782707138576.html) ([*Power and invention*](https://www.upress.umn.edu/9780816625178/power-and-invention/)) have helped me to overcome various academic frustrations and hopefully to fight some of their causes. [*Making genes, making waves*](http://www.hup.harvard.edu/catalog.php?isbn=9780674009288) by J. Beckwidth is another inspiring read.
 
-- L'Atelier des Jours à Venir, a French non-profit company promoting reflexive and responsible research practices, gathered valuable [resources](http://www.joursavenir.org/Resources).
+<!-- - L'Atelier des Jours à Venir, a French non-profit company promoting reflexive and responsible research practices, gathered valuable [resources](http://www.joursavenir.org/Resources). -->
 
 <!-- - contribution NKI -->
 
